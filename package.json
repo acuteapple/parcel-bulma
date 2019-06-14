@@ -1,0 +1,19 @@
+{
+  "name": "parcel-bulma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "qing apple <qingapple@mail.com>",
+  "license": "MIT",
+  "description": "A starter for webdesign, using Parcel and Bulma.",
+  "repository": "https://github.com/acuteapple/parcel-bulma",
+  "scripts": {
+    "start": "trash .cache dist && parcel ./src/**/*.html",
+    "build": "trash .cache dist && parcel build ./src/**/*.html"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "bulma": "^0.7.5",
+    "parcel-bundler": "^1.12.3",
+    "trash-cli": "^3.0.0"
+  }
+}
